@@ -60,6 +60,40 @@ a lezione sono pubblicati nelle
 prima cella del notebook. Il link alla fonte ufficiale completa resta in una cella
 commentata, per chi poi vuole rifare tutto sui dati interi.
 
+## I dati e le loro licenze
+
+I dataset sono pubblici e ognuno ha la sua licenza, diversa dalla nostra. Le
+release riportano fonte e attribuzione, e dentro ogni archivio c'è un `LEGGIMI.txt`
+che dice cosa è stato cambiato rispetto all'originale.
+
+| Dati | Fonte | Licenza | Release |
+|---|---|---|---|
+| Uccelli, immagini più attributi | [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/), Caltech | ricerca e didattica **non commerciali** | [`dati-cub`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-cub) |
+| Esami tiroidei | [UCI Thyroid Disease](https://archive.ics.uci.edu/dataset/102/thyroid+disease) | CC BY 4.0 | [`dati-thyroid`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-thyroid) |
+| Turbine, run-to-failure | [NASA C-MAPSS](https://zenodo.org/records/15346912) | dato pubblico USA, CC BY 4.0 su Zenodo | [`dati-cmapss`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-cmapss) |
+| Video di pedoni | [`vtest.avi`](https://github.com/opencv/opencv/blob/master/samples/data/vtest.avi), OpenCV | Apache 2.0 | [`dati-video`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-video) |
+| Voce, audio più trascrizioni | [LJSpeech-1.1](https://keithito.com/LJ-Speech-Dataset/) | pubblico dominio | [`dati-ljspeech`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-ljspeech) |
+
+Citazioni obbligatorie:
+
+- **CUB-200-2011** — Wah C., Branson S., Welinder P., Perona P., Belongie S., *The
+  Caltech-UCSD Birds-200-2011 Dataset*, Computation & Neural Systems Technical
+  Report CNS-TR-2011-001, California Institute of Technology, 2011. I termini della
+  fonte limitano l'uso a **ricerca e didattica non commerciali**: qui c'è per il
+  corso, non portarlo in un prodotto.
+- **UCI Thyroid Disease** — dati del Garavan Institute e di J. Ross Quinlan, 1987,
+  via UCI Machine Learning Repository.
+- **NASA C-MAPSS** — A. Saxena, K. Goebel, *Turbofan Engine Degradation Simulation
+  Data Set*, NASA Prognostics Data Repository, NASA Ames Research Center.
+
+Il resto delle release non chiede attribuzione, ma citare la fonte non costa niente.
+
+Gli archivi sono **ridotti**: 20 classi di uccelli su 200, 305 clip vocali su
+13.100. Il motivo è il tempo, non la banda: Colab azzera il disco a ogni sessione e
+ognuno riscarica tutto ogni volta. Il link alla fonte intera resta in una cella
+commentata del notebook, e gli script che hanno costruito le release stanno in
+[`scripts/`](scripts/), così si vede esattamente cosa è stato tolto.
+
 ## Eseguirlo in locale
 
 Sono `.ipynb` normali: girano anche in locale con VSCode o Jupyter. Durante le lezioni

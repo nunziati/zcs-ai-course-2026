@@ -3,6 +3,12 @@ data/
 *.zip
 *.tar.gz
 *.tgz
+*.tar.bz2
+*.avi
+
+# Scarichi e archivi costruiti dagli script di scripts/: stanno nelle release.
+scripts/work/
+scripts/out/
 
 # Pesi e checkpoint dei modelli.
 *.pt
