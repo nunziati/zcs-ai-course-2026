@@ -88,6 +88,13 @@ Citazioni obbligatorie:
 
 Il resto delle release non chiede attribuzione, ma citare la fonte non costa niente.
 
+Ogni archivio si scarica da un URL fisso, che non cambia più:
+
+```python
+!wget -q https://github.com/nunziati/zcs-ai-course-2026/releases/download/dati-cub/cub-200-2011-20-classi.tgz
+!tar xzf cub-200-2011-20-classi.tgz
+```
+
 Gli archivi sono **ridotti**: 20 classi di uccelli su 200, 305 clip vocali su
 13.100. Il motivo è il tempo, non la banda: Colab azzera il disco a ogni sessione e
 ognuno riscarica tutto ogni volta. Il link alla fonte intera resta in una cella
