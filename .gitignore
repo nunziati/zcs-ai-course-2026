@@ -1,0 +1,20 @@
+# I dataset non si committano: si scaricano dalle release.
+data/
+*.zip
+*.tar.gz
+*.tgz
+
+# Pesi e checkpoint dei modelli.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Sporcizia di Jupyter e Python.
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.DS_Store
