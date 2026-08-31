@@ -22,6 +22,9 @@ obbligatorio.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/verifica-ambiente.ipynb)
 
+Il corso dà per noti alcuni argomenti di machine learning. La lista, con dove
+recuperare ciascuno, sta in [PREREQUISITI.md](PREREQUISITI.md).
+
 ## Le cinque lezioni
 
 | | Data | Argomento | Notebook |
@@ -52,6 +55,7 @@ Per chiedere la GPU: *Runtime → Cambia tipo di runtime → GPU T4*.
 ```
 lezione-1/ ... lezione-5/   una cartella per lezione: notebook, slide, note
 verifica-ambiente.ipynb     controllo rapido di Python, GPU e librerie
+PREREQUISITI.md             cosa il corso dà per noto, e dove recuperarlo
 ```
 
 I dataset **non stanno nella repo**: sono troppo grandi. I sottoinsiemi ridotti usati
