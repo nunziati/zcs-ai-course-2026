@@ -1,0 +1,62 @@
+Corso di AI applicata — Zucchetti Centro Sistemi, settembre 2026
+Copyright (c) 2026 Giacomo Nunziati
+
+Questa repo usa due licenze, perché testo e codice hanno bisogni diversi.
+
+-------------------------------------------------------------------------------
+TESTO, SLIDE E MATERIALE DIDATTICO — Creative Commons Attribuzione 4.0
+-------------------------------------------------------------------------------
+
+Slide, README, celle di testo dei notebook, figure e ogni altro contenuto
+espositivo sono rilasciati sotto Creative Commons Attribuzione 4.0
+Internazionale (CC BY 4.0).
+
+Puoi copiarli, ridistribuirli, modificarli e usarli anche per scopi
+commerciali, a condizione di citare l'autore.
+
+  Sintesi:      https://creativecommons.org/licenses/by/4.0/deed.it
+  Testo legale: https://creativecommons.org/licenses/by/4.0/legalcode.it
+
+Attribuzione richiesta: "Giacomo Nunziati, Corso di AI applicata per Zucchetti
+Centro Sistemi, 2026", con link a questa repo.
+
+-------------------------------------------------------------------------------
+CODICE — Licenza MIT
+-------------------------------------------------------------------------------
+
+Le celle di codice dei notebook e ogni script di questa repo sono rilasciati
+sotto licenza MIT, riportata per intero qui sotto.
+
+Copyright (c) 2026 Giacomo Nunziati
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+QUELLO CHE QUESTE LICENZE NON COPRONO
+-------------------------------------------------------------------------------
+
+Dataset, pesi di modelli e librerie di terze parti NON sono coperti da questa
+licenza: restano dei rispettivi autori e mantengono la propria. Ogni notebook
+dichiara la licenza di quello che usa, e le release che contengono dati di
+terzi riportano la licenza e l'attribuzione della fonte originale.
+
+In particolare: Ultralytics YOLO e' AGPL-3.0. Usarlo dentro un servizio di
+rete raggiungibile da terzi obbliga a pubblicare il sorgente dell'intera
+applicazione. Non e' un problema per questa repo, che non lo ridistribuisce,
+ma lo diventa per chi porta quel codice in produzione.

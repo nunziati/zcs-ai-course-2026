@@ -66,10 +66,18 @@ Sono `.ipynb` normali: girano anche in locale con VSCode o Jupyter. Durante le l
 però l'unico ambiente supportato è Colab. In locale servono Python 3.10 o superiore,
 PyTorch e le librerie elencate nella prima cella di ogni notebook.
 
-## Materiale e diritti
+## Licenza
 
-Slide e notebook sono di Giacomo Nunziati, 2026, e sono messi a disposizione dei
-partecipanti al corso.
+Il materiale è di Giacomo Nunziati, 2026, e puoi riusarlo al lavoro senza chiedere
+niente a nessuno. Due licenze, perché testo e codice hanno bisogni diversi:
 
-Dataset, modelli e librerie di terze parti restano dei rispettivi autori e mantengono
-la propria licenza, indicata nel notebook che li usa.
+- **testo, slide e celle di spiegazione**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) — copia, modifica e usa anche in azienda, citando l'autore;
+- **codice dei notebook**: [MIT](https://opensource.org/licenses/MIT) — stessa libertà, con la formula standard del software.
+
+Il dettaglio sta in [LICENSE](LICENSE).
+
+**Dataset, pesi dei modelli e librerie di terze parti non sono coperti da questa
+licenza**: restano dei rispettivi autori. Ogni notebook dichiara la licenza di quello
+che usa, e le release che contengono dati altrui riportano fonte e attribuzione. È una
+distinzione che conviene tenere a mente anche fuori da qui: la licenza del codice e
+quella dei pesi di un modello spesso non coincidono.
