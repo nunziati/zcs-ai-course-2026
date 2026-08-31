@@ -74,7 +74,8 @@ niente a nessuno. Due licenze, perché testo e codice hanno bisogni diversi:
 - **testo, slide e celle di spiegazione**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) — copia, modifica e usa anche in azienda, citando l'autore;
 - **codice dei notebook**: [MIT](https://opensource.org/licenses/MIT) — stessa libertà, con la formula standard del software.
 
-Il dettaglio sta in [LICENSE](LICENSE).
+I testi integrali stanno in [LICENSE](LICENSE) per il testo e in
+[LICENSE-CODE](LICENSE-CODE) per il codice.
 
 **Dataset, pesi dei modelli e librerie di terze parti non sono coperti da questa
 licenza**: restano dei rispettivi autori. Ogni notebook dichiara la licenza di quello
