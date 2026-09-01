@@ -7,18 +7,15 @@
 Clicca il badge qui sopra: non c'è niente da installare, serve solo il tuo account Google.
 Il notebook si esegue dall'alto in basso e la prima cella scarica i dati da sola.
 
-**Se hai una GPU a disposizione su Colab, accendila** — *Runtime → Cambia tipo di runtime →
-T4*. Non è obbligatorio: senza GPU il notebook gira lo stesso, l'unico passaggio lento
-diventa l'estrazione delle feature, che passa da una quindicina di secondi a circa un minuto.
+Se hai una GPU disponibile su Colab, accendila da *Runtime → Cambia tipo di runtime → T4*.
+Senza GPU il notebook gira comunque.
 
 ## Cosa c'è dentro
 
-Ci sono **tre celle marcate `PUNTO DI VARIAZIONE`**: sono le uniche che tocchiamo insieme in
-aula, cambiando la costante sulla prima riga e rieseguendo. Tutto il resto è già scritto ed è
-solo da eseguire.
+Tre celle sono marcate `PUNTO DI VARIAZIONE`: contengono una costante che modifichiamo
+insieme in aula e rieseguiamo. Il resto è già scritto e va solo eseguito.
 
-Il notebook arriva con **tutti gli output già dentro**, quindi puoi leggerlo anche senza
-eseguirlo, e se una cella dovesse fallire in aula il risultato resta visibile.
+Il notebook arriva con tutti gli output già dentro, quindi si legge anche senza eseguirlo.
 
 ## I dati
 
