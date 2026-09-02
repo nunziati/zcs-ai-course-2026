@@ -12,7 +12,7 @@ Senza GPU il notebook gira comunque.
 
 ## Cosa c'è dentro
 
-Tre celle sono marcate `PUNTO DI VARIAZIONE`: contengono una costante che modifichiamo
+Due celle sono marcate `PUNTO DI VARIAZIONE`: contengono una costante che modifichiamo
 insieme in aula e rieseguiamo. Il resto è già scritto e va solo eseguito.
 
 Il notebook arriva con tutti gli output già dentro, quindi si legge anche senza eseguirlo.
