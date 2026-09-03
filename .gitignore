@@ -1,5 +1,6 @@
 # I dataset non si committano: si scaricano dalle release.
 data/
+dati/
 *.zip
 *.tar.gz
 *.tgz

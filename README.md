@@ -29,8 +29,8 @@ recuperare ciascuno, sta in [PREREQUISITI.md](PREREQUISITI.md).
 
 | | Data | Argomento | Notebook |
 |---|---|---|---|
-| Lezione 1 | mercoledì 2 settembre | [CNN fine-grained e multimodalità immagine più tabellare](lezione-1/) | in arrivo |
-| Lezione 2 | venerdì 4 settembre | [Dati tabellari, explainability e incertezza](lezione-2/) | in arrivo |
+| Lezione 1 | mercoledì 2 settembre | [CNN fine-grained e multimodalità immagine più tabellare](lezione-1/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-1/lezione-1.ipynb) |
+| Lezione 2 | venerdì 4 settembre | [Dati tabellari, explainability e incertezza](lezione-2/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-2/lezione-2.ipynb) |
 | Lezione 3 | lunedì 7 settembre | [Anomaly detection e manutenzione predittiva](lezione-3/) | in arrivo |
 | Lezione 4 | mercoledì 9 settembre | [Video e computer vision realtime](lezione-4/) | in arrivo |
 | Lezione 5 | venerdì 11 settembre | [AI generativa multimodale, voce e video](lezione-5/) | in arrivo |
@@ -39,10 +39,10 @@ Il notebook di ogni lezione compare nella sua cartella, di norma la sera prima.
 
 ## Se ti tocca la CPU
 
-Colab dà una GPU gratuita, ma non sempre e non a tutti. Ogni notebook ha in cima le
-costanti `EPOCHS`, `BATCH_SIZE` e `N_SAMPLES`, già impostate su valori che girano
-anche senza GPU: il notebook funziona lo stesso, su meno dati e con risultati più
-grezzi.
+Colab dà una GPU gratuita, ma non sempre e non a tutti. Nessun notebook la
+pretende: quelli che la sfruttano hanno in cima delle costanti già impostate su
+valori che girano anche senza, su meno dati e con risultati più grezzi. Il
+notebook della Lezione 2 non la usa affatto.
 
 I notebook sono pubblicati **con gli output già dentro**. Se una cella è lenta o va
 storta, il risultato atteso lo leggi lì, senza aspettare, e intanto segui la lezione
