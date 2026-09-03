@@ -17,10 +17,10 @@ insieme in aula e rieseguiamo. Il resto è già scritto e va solo eseguito.
 
 Il notebook arriva con tutti gli output già dentro, quindi si legge anche senza eseguirlo.
 
-Si parte dai valori mancanti, si sale dalla regressione logistica al gradient boosting
-e all'EBM, e si arriva a un AUC di 0,999 — che poi viene smontato: da dove viene quel
-numero, quanto vale il suo intervallo di confidenza, e cosa succede quando cambia la
-popolazione.
+Dodici celle di codice, una cosa per cella. Si parte dai valori mancanti, si sale dalla
+regressione logistica al gradient boosting e all'EBM, e si arriva a un AUC di 0,997 —
+che poi viene smontato: da dove viene quel numero, quando due modelli sono davvero
+diversi, e cosa succede alle probabilità quando cambia il centro di provenienza.
 
 ## I dati
 
