@@ -22,6 +22,12 @@ regressione logistica al gradient boosting e all'EBM, e si arriva a un AUC di 0,
 che poi viene smontato: da dove viene quel numero, quando due modelli sono davvero
 diversi, e cosa succede alle probabilità quando cambia il centro di provenienza.
 
+## Le slide
+
+- [`lezione-2.html`](https://nunziati.github.io/zcs-ai-course-2026/lezione-2/lezione-2.html)
+  — la versione da schermo, si apre nel browser e funziona anche senza rete.
+- [`lezione-2.pdf`](./lezione-2.pdf) — 73 pagine, per leggere e annotare.
+
 ## I dati
 
 UCI Thyroid Disease, task `sick`, dalla release
