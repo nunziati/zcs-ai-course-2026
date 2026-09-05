@@ -31,7 +31,7 @@ recuperare ciascuno, sta in [PREREQUISITI.md](PREREQUISITI.md).
 |---|---|---|---|
 | Lezione 1 | mercoledì 2 settembre | [CNN fine-grained e multimodalità immagine più tabellare](lezione-1/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-1/lezione-1.ipynb) |
 | Lezione 2 | venerdì 4 settembre | [Dati tabellari, explainability e incertezza](lezione-2/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-2/lezione-2.ipynb) |
-| Lezione 3 | lunedì 7 settembre | [Anomaly detection e manutenzione predittiva](lezione-3/) | in arrivo |
+| Lezione 3 | lunedì 7 settembre | [Anomaly detection e manutenzione predittiva](lezione-3/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-3/lezione-3.ipynb) |
 | Lezione 4 | mercoledì 9 settembre | [Video e computer vision realtime](lezione-4/) | in arrivo |
 | Lezione 5 | venerdì 11 settembre | [AI generativa multimodale, voce e video](lezione-5/) | in arrivo |
 
