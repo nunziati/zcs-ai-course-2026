@@ -21,6 +21,12 @@ Il filo è uno solo: **in questi dati le anomalie non ci sono**. L'unica cosa re
 quanti cicli mancano al guasto. «Anomalia» non è un dato, è una decisione che prendiamo
 noi, e da come la prendiamo dipende ogni numero che viene dopo.
 
+## Le slide
+
+- [`lezione-3.html`](https://nunziati.github.io/zcs-ai-course-2026/lezione-3/lezione-3.html)
+  — la versione da schermo, si apre nel browser e funziona anche senza rete.
+- [`lezione-3.pdf`](./lezione-3.pdf) — 60 pagine, per leggere e annotare.
+
 ## I dati
 
 NASA C-MAPSS, sottoinsieme FD001, dalla release
