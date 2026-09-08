@@ -52,8 +52,8 @@ Tutti e due arrivano con gli output già dentro, quindi si leggono anche senza e
 ## I dati
 
 **8-Calves**, estratto: 600 frame (30 secondi a 20 frame al secondo, 800×600) di una
-stalla ripresa dall'alto con otto vitelli, più le annotazioni — un riquadro per vitello per
-frame, con l'identità. Dalla release
+stalla ripresa dall'alto con otto vitelli, più le annotazioni — un bounding box per vitello
+per frame, con l'identità. Dalla release
 [`dati-video`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-video).
 
 > Fang, Y. et al. *8-Calves Dataset: Benchmarking Object Detection and Identity
