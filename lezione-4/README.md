@@ -2,38 +2,52 @@
 
 **Modulo 4 — Video e computer vision realtime**
 
+Ci sono **due notebook**. Servono a cose diverse e si aprono tutti e due da qui: serve solo
+il tuo account Google, la prima cella scarica i dati da sola e quelle che eseguono un
+detector installano `ultralytics` al primo uso.
+
+## 1. La pipeline, dal frame al numero
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-4/lezione-4.ipynb)
+
+`lezione-4.ipynb` — **si esegue dall'alto in basso.** Una pipeline sola, montata uno stadio
+alla volta — decodifica, inferenza, post-processing, tracking, regola di evento — e alla
+fine misurata per intero: quanto costa ogni stadio, quanti frame al secondo regge, e di
+quanto sbaglia il numero che consegna.
+
+La prima cella contiene la configurazione. Cambiarla e rieseguire tutto è l'esercizio della
+giornata.
+
+## 2. I metodi, una cella alla volta
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-4/metodi-lezione-4.ipynb)
 
-Clicca il badge qui sopra: serve solo il tuo account Google. La prima cella che esegui
-scarica i dati da sola, e quelle che eseguono un detector installano `ultralytics` al
-primo uso, una volta sola.
-
-**Questo notebook si esegue in qualsiasi ordine.** Ogni cella è indipendente: importa
-quello che le serve, costruisce i propri dati e stampa la propria conclusione. Se ne può
-eseguire una sola, o saltarne metà.
-
-Gira anche senza GPU. Con la GPU le celle che misurano un tempo vanno una decina di volte
-più veloci; i risultati non cambiano.
-
-## Cosa c'è dentro
+`metodi-lezione-4.ipynb` — **si esegue in qualsiasi ordine.** Ogni cella è indipendente:
+importa quello che le serve, costruisce i propri dati e stampa la propria conclusione. Se ne
+può eseguire una sola, o saltarne metà.
 
 Venti sezioni, una per meccanismo: dalla ridondanza fra frame consecutivi alla latenza al
 99° percentile, passando per detection, soppressione dei duplicati, tracking e metriche.
 
-Due celle sono marcate `PUNTO DI VARIAZIONE`. La prima è il detector, e vale per tutto il
-notebook:
+## Il detector, che è anche una scelta di licenza
 
-| valore | modello | licenza |
-|---|---|---|
-| `yolo11n` | YOLO11 nano, 2,6 M parametri | AGPL-3.0 |
-| `yolo11s` | YOLO11 small, 9,5 M parametri | AGPL-3.0 |
-| `yolo11m` | YOLO11 medium, 20,1 M parametri — è il valore di partenza | AGPL-3.0 |
-| `rtdetr` | RT-DETRv2-R18, 20,2 M parametri | Apache 2.0 |
+Tutti e due i notebook hanno una costante `DETECTOR` marcata `PUNTO DI VARIAZIONE`:
 
-Cambiare quella costante cambia i numeri di mezzo notebook, e in due celle cambia anche la
-conclusione. È voluto.
+| valore | modello | licenza | ms per frame, CPU |
+|---|---|---|---|
+| `yolo11n` | YOLO11 nano, 2,6 M parametri | AGPL-3.0 | ~20 |
+| `yolo11s` | YOLO11 small, 9,5 M parametri | AGPL-3.0 | ~45 |
+| `yolo11m` | YOLO11 medium, 20,1 M parametri — è il valore di partenza | AGPL-3.0 | ~115 |
+| `rtdetr` | RT-DETRv2-R18, 20,2 M parametri | Apache 2.0 | ~190 |
 
-Il notebook arriva con tutti gli output già dentro, quindi si legge anche senza eseguirlo.
+I tempi sono presi su una CPU a otto thread e servono solo a confrontare i quattro fra loro:
+sulla tua macchina saranno altri. Cambiare quella costante cambia i numeri di mezzo notebook,
+e in due celle cambia anche la conclusione. È voluto.
+
+Nessuno dei due notebook ha bisogno della GPU. Con la GPU le celle che misurano un tempo
+vanno una decina di volte più veloci; i risultati non cambiano.
+
+Tutti e due arrivano con gli output già dentro, quindi si leggono anche senza eseguirli.
 
 ## I dati
 
