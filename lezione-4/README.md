@@ -28,17 +28,18 @@ può eseguire una sola, o saltarne metà.
 
 Venti sezioni, una per meccanismo: dalla ridondanza fra frame consecutivi alla latenza al
 99° percentile, passando per detection, soppressione dei duplicati, tracking e metriche.
+Ogni sezione mostra il risultato anche sui frame, non solo in numeri.
 
-## Il detector, che è anche una scelta di licenza
+## Il detector
 
 Tutti e due i notebook hanno una costante `DETECTOR` marcata `PUNTO DI VARIAZIONE`:
 
-| valore | modello | licenza | ms per frame, CPU |
-|---|---|---|---|
-| `yolo11n` | YOLO11 nano, 2,6 M parametri | AGPL-3.0 | ~20 |
-| `yolo11s` | YOLO11 small, 9,5 M parametri | AGPL-3.0 | ~45 |
-| `yolo11m` | YOLO11 medium, 20,1 M parametri — è il valore di partenza | AGPL-3.0 | ~115 |
-| `rtdetr` | RT-DETRv2-R18, 20,2 M parametri | Apache 2.0 | ~190 |
+| valore | modello | ms per frame, CPU |
+|---|---|---|
+| `yolo11n` | YOLO11 nano, 2,6 M parametri | ~20 |
+| `yolo11s` | YOLO11 small, 9,5 M parametri | ~45 |
+| `yolo11m` | YOLO11 medium, 20,1 M parametri — è il valore di partenza | ~115 |
+| `rtdetr` | RT-DETRv2-R18, 20,2 M parametri | ~190 |
 
 I tempi sono presi su una CPU a otto thread e servono solo a confrontare i quattro fra loro:
 sulla tua macchina saranno altri. Cambiare quella costante cambia i numeri di mezzo notebook,
