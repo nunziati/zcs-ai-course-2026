@@ -50,6 +50,12 @@ vanno una decina di volte più veloci; i risultati non cambiano.
 
 Tutti e due arrivano con gli output già dentro, quindi si leggono anche senza eseguirli.
 
+## Le slide
+
+- [`lezione-4.html`](https://nunziati.github.io/zcs-ai-course-2026/lezione-4/lezione-4.html)
+  — la versione da schermo, si apre nel browser e funziona anche senza rete.
+- [`lezione-4.pdf`](./lezione-4.pdf) — 72 pagine, per leggere e annotare.
+
 ## I dati
 
 **8-Calves**, estratto: 600 frame (30 secondi a 20 frame al secondo, 800×600) di una
