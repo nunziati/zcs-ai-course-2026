@@ -14,9 +14,10 @@ python3 build_thyroid.py    # UCI Thyroid, intero                   -> 0,1 MB
 python3 build_cmapss.py     # NASA C-MAPSS, intero                  -> 11,9 MB
 python3 build_ljspeech.py   # 305 clip delle 13.100 di LJSpeech     -> 60,2 MB
 python3 build_video.py      # vtest.avi di OpenCV                   ->  7,8 MB
+python3 build_metropt.py    # MetroPT-3, medie al minuto            ->  4,1 MB
 ```
 
-Serve solo Pillow, e solo per `build_cub.py`. Ogni script scarica in `work/`,
+Servono Pillow, solo per `build_cub.py`, e pandas, solo per `build_metropt.py`. Ogni script scarica in `work/`,
 costruisce in `out/`, e stampa dimensione e sha256 di quello che ha prodotto.
 Entrambe le cartelle sono ignorate da git. Scaricare tutto significa 4 GB, e
 `work/` arriva a una decina di GB con gli archivi estratti.
@@ -41,6 +42,7 @@ stabile.
 | `cmapss.zip` | NASA PCoE | nessuna, tolto solo lo zip esterno |
 | `ljspeech-ridotto.tar.bz2` | keithito.com | 305 clip su 13.100 |
 | `vtest.avi` | opencv/opencv | nessuna |
+| `metropt3.zip` | UCI | medie al minuto dei 15 segnali: da 1.516.948 righe a 252.720 |
 
 Ogni archivio contiene un `LEGGIMI.txt` con fonte, licenza, citazione obbligatoria
 dove serve, e l'elenco preciso di cosa è cambiato. Il dettaglio delle licenze sta
