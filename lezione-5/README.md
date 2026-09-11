@@ -10,4 +10,10 @@ I dati ridotti usati a lezione stanno nelle
 [release](https://github.com/nunziati/zcs-ai-course-2026/releases) della repo e li
 scarica la prima cella del notebook.
 
+## Le slide
+
+- [`lezione-5.html`](https://nunziati.github.io/zcs-ai-course-2026/lezione-5/lezione-5.html)
+  — la versione da schermo, si apre nel browser e funziona anche senza rete.
+- [`lezione-5.pdf`](./lezione-5.pdf) — 45 pagine, per leggere e annotare.
+
 Torna al [README](../README.md) per le indicazioni generali.
