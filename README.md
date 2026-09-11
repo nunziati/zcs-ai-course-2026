@@ -33,7 +33,7 @@ recuperare ciascuno, sta in [PREREQUISITI.md](PREREQUISITI.md).
 | Lezione 2 | venerdì 4 settembre | [Dati tabellari, explainability e incertezza](lezione-2/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-2/lezione-2.ipynb) |
 | Lezione 3 | lunedì 7 settembre | [Anomaly detection e manutenzione predittiva](lezione-3/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-3/lezione-3.ipynb) |
 | Lezione 4 | mercoledì 9 settembre | [Video e computer vision realtime](lezione-4/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-4/lezione-4.ipynb) |
-| Lezione 5 | venerdì 11 settembre | [AI generativa multimodale, voce e video](lezione-5/) | in arrivo |
+| Lezione 5 | venerdì 11 settembre | [AI generativa multimodale, voce e video](lezione-5/) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-5/caso-studio-metropt.ipynb) |
 
 Il notebook di ogni lezione compare nella sua cartella, di norma la sera prima.
 
@@ -76,7 +76,9 @@ che dice cosa è stato cambiato rispetto all'originale.
 | Esami tiroidei | [UCI Thyroid Disease](https://archive.ics.uci.edu/dataset/102/thyroid+disease) | CC BY 4.0 | [`dati-thyroid`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-thyroid) |
 | Turbine, run-to-failure | [NASA C-MAPSS](https://zenodo.org/records/15346912) | dato pubblico USA, CC BY 4.0 su Zenodo | [`dati-cmapss`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-cmapss) |
 | Video di pedoni | [`vtest.avi`](https://github.com/opencv/opencv/blob/master/samples/data/vtest.avi), OpenCV | Apache 2.0 | [`dati-video`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-video) |
+| Stalla con otto vitelli, video annotato | [8-Calves](https://huggingface.co/datasets/tonyFang04/8-calves) | CC BY 4.0 | [`dati-video`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-video) |
 | Voce, audio più trascrizioni | [LJSpeech-1.1](https://keithito.com/LJ-Speech-Dataset/) | pubblico dominio | [`dati-ljspeech`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-ljspeech) |
+| Compressore di un treno in servizio | [UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset) | CC BY 4.0 | [`dati-metropt`](https://github.com/nunziati/zcs-ai-course-2026/releases/tag/dati-metropt) |
 
 Citazioni obbligatorie:
 
@@ -89,6 +91,11 @@ Citazioni obbligatorie:
   via UCI Machine Learning Repository.
 - **NASA C-MAPSS** — A. Saxena, K. Goebel, *Turbofan Engine Degradation Simulation
   Data Set*, NASA Prognostics Data Repository, NASA Ames Research Center.
+- **8-Calves** — Y. Fang et al., *8-Calves Dataset: Benchmarking Object Detection and
+  Identity Classification in Occlusion-Rich Environments*, arXiv:2503.13777.
+- **MetroPT-3** — N. Davari, B. Veloso, R. P. Ribeiro, P. M. Pereira, J. Gama, *Predictive
+  maintenance based on anomaly detection using deep learning for air production unit in
+  the railway industry*, IEEE DSAA 2021, via UCI Machine Learning Repository.
 
 Il resto delle release non chiede attribuzione, ma citare la fonte non costa niente.
 
