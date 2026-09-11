@@ -1,6 +1,6 @@
 # Lezione 4 — mercoledì 9 settembre 2026, ore 9:00–13:00
 
-**Modulo 4 — Video e computer vision realtime**
+**Modulo 4 — Video e computer vision real-time**
 
 Ci sono **due notebook**. Servono a cose diverse e si aprono tutti e due da qui: serve solo
 il tuo account Google, la prima cella scarica i dati da sola e quelle che eseguono un
@@ -15,8 +15,7 @@ alla volta — decodifica, inferenza, post-processing, tracking, regola di event
 fine misurata per intero: quanto costa ogni stadio, quanti frame al secondo regge, e di
 quanto sbaglia il numero che consegna.
 
-La prima cella contiene la configurazione. Cambiarla e rieseguire tutto è l'esercizio della
-giornata.
+La prima cella contiene la configurazione. Cambiarla e rieseguire tutto è l'esercizio.
 
 ## 2. I metodi, una cella alla volta
 

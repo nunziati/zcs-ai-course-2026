@@ -1,6 +1,6 @@
 # Lezione 3 — lunedì 7 settembre 2026, ore 9:00–13:00
 
-**Modulo 3 — Rilevazione di anomalie e manutenzione predittiva**
+**Modulo 3 — Anomaly detection e manutenzione predittiva**
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nunziati/zcs-ai-course-2026/blob/main/lezione-3/lezione-3.ipynb)
 
@@ -13,7 +13,7 @@ e matplotlib, che su Colab ci sono già.
 ## Cosa c'è dentro
 
 Undici celle di codice, una cosa per cella. Tre sono marcate `PUNTO DI VARIAZIONE`:
-contengono una costante che modifichiamo insieme in aula e rieseguiamo.
+contengono una costante da cambiare prima di rieseguire.
 
 Il notebook arriva con tutti gli output già dentro, quindi si legge anche senza eseguirlo.
 

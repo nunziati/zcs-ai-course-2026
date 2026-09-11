@@ -3,8 +3,8 @@
 **Modulo 5 — AI generativa multimodale, voce e video**
 
 Il notebook di questa lezione è un **caso di studio di anomaly detection e manutenzione
-predittiva** su dati industriali reali, presentato alla fine della mattina, prima del test.
-Si apre da qui: serve solo il tuo account Google, e la prima cella scarica i dati da sola.
+predittiva** su dati industriali reali. Si apre da qui: serve solo il tuo account Google, e
+la prima cella scarica i dati da sola.
 
 ## Caso di studio: il compressore di un treno
 
